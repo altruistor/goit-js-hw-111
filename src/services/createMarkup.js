@@ -5,16 +5,16 @@ function createMarkupCard(createCards) {
   <img src="${createCard.webformatURL}" alt="${createCard.tags}" class="photo" loading="lazy" />
   <div class="info">
     <p class="info-item">
-      <b>Likes ${createCard.likes}</b>
+      <b>Likes:</b> ${createCard.likes}
     </p>
     <p class="info-item">
-      <b>Views ${createCard.views}</b>
+      <b>Views:</b> ${createCard.views}
     </p>
     <p class="info-item">
-      <b>Comments ${createCard.comments}</b>
+      <b>Comments:</b> ${createCard.comments}
     </p>
     <p class="info-item">
-      <b>Downloads ${createCard.downloads}</b>
+      <b>Downloads:</b> ${createCard.downloads}</b>
     </p>
   </div>
 </div>`).join('')
